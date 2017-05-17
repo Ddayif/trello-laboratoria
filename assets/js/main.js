@@ -1,7 +1,8 @@
-function input(){
-	var mostrarInput = document.getElementById("input")
-mostrarInput.addEventListener("click", function(){
-	alert("Input")
-})
+function mostrarBoton(){
+	var mostrar = document.getElementById("boton");
+    if(mostrar.style.display == "none"){
+    	mostrar.style.display = "Block";
+    }
 }
-input()
+
+
