@@ -1,8 +1,8 @@
-function mostrarBoton(){
-	var mostrar = document.getElementById("boton");
-    if(mostrar.style.display == "none"){
-    	mostrar.style.display = "Block";
-    }
+function addBoton(){
+	var boton = document.createElement("input");
+	boton.type = "button";
+	boton.value = "Guardar";
+	document.getElementById("divObjetivo").appendChild(boton)
 }
 
 
