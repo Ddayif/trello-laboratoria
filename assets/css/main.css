@@ -16,3 +16,13 @@ input{
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 }
+
+.mi-btn{
+	background-color: #5eb64a;
+	border-radius: 10px;
+}
+
+.mi-segundo-input{
+	background-color: blue;
+	width: 100px;
+}
